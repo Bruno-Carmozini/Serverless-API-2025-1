@@ -12,7 +12,7 @@ dynamodb = boto3.resource("dynamodb")
 table = dynamodb.Table(DYNAMODB_TABLE)
 s3 = boto3.client("s3")
 
-
+# teste
 
 def lambda_handler(event, context):
     """Função principal - roteia requisições HTTP"""
