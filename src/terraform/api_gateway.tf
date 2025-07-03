@@ -18,6 +18,8 @@ resource "aws_apigatewayv2_stage" "main_stage" {
   auto_deploy = true
 }
 
+#test
+
 # API Gateway Integration with Lambda
 resource "aws_apigatewayv2_integration" "lambda_integration" {
   api_id           = aws_apigatewayv2_api.main_api.id
