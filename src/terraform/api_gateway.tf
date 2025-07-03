@@ -18,7 +18,7 @@ resource "aws_apigatewayv2_stage" "main_stage" {
   auto_deploy = true
 }
 
-#test
+#test2
 
 # API Gateway Integration with Lambda
 resource "aws_apigatewayv2_integration" "lambda_integration" {
