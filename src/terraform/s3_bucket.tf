@@ -4,5 +4,7 @@ resource "aws_s3_bucket" "main_bucket" {
 }
 
 variable "student_id" {
-  default = "lucas-bruzzone"
+  default = "bruno-carmozini"
 }
+
+#2

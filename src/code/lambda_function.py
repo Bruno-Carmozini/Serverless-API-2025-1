@@ -4,7 +4,7 @@ import os
 import uuid
 from datetime import datetime
 
-# Configuração via variáveis de ambiente
+# Configuração via variáveis de ambiente 2
 DYNAMODB_TABLE = os.environ["DYNAMODB_TABLE"]
 S3_BUCKET = os.environ["S3_BUCKET"]
 

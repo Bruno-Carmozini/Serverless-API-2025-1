@@ -1,6 +1,6 @@
 name: Terraform AWS Academy Deploy Test
 
-# teste
+# teste 2
 
 on:
   push:
