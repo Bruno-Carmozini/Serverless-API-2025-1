@@ -1,5 +1,7 @@
 name: Terraform AWS Academy Deploy Test
 
+# teste
+
 on:
   push:
     branches: [ main ]
